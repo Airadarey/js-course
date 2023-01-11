@@ -1,4 +1,1 @@
-const answers = [];
-
-console.log(typeof(answers));
-console.log(typeof(null));
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '')
