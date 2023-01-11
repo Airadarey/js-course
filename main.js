@@ -6,3 +6,11 @@ const personalMovieDB = {
     genres: [],
     privat: false
 }
+
+const oneOfMovies = prompt('Один из последних просмотренных фильмов?', '') 
+const filmRate = prompt('На сколько оцените его?', '')
+const genre = prompt('А жанр?')
+
+personalMovieDB.movies[oneOfMovies] = filmRate
+personalMovieDB.genres.push(genre)
+console.log(personalMovieDB);
